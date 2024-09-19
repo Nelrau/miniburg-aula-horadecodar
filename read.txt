@@ -1,0 +1,76 @@
+vue create miniburber
+
+
+Vue CLI v5.0.8
+? Target directory /var/www/html/miniburber already exists. Pick an 
+action: Overwrite
+
+Removing /var/www/html/miniburber...
+
+
+Vue CLI v5.0.8
+? Please pick a preset: Manually select features
+? Check the features needed for your project: Babel
+? Choose a version of Vue.js that you want to start the project with
+ 3.x
+? Where do you prefer placing config for Babel, ESLint, etc.? In 
+package.json
+? Save this as a preset for future projects? Yes
+? Save preset as: package.json
+
+🎉  Preset package.json saved in /home/nelrau/.vuerc
+
+
+Vue CLI v5.0.8
+✨  Creating project in /var/www/html/miniburber.
+🗃  Initializing git repository...
+⚙️  Installing CLI plugins. This might take a while...
+
+
+added 846 packages, and audited 847 packages in 3m
+
+99 packages are looking for funding
+  run `npm fund` for details
+
+4 moderate severity vulnerabilities
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+🚀  Invoking generators...
+📦  Installing additional dependencies...
+
+
+added 6 packages, and audited 853 packages in 14s
+
+99 packages are looking for funding
+  run `npm fund` for details
+
+4 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+⚓  Running completion hooks...
+
+📄  Generating README.md...
+
+🎉  Successfully created project miniburber.
+👉  Get started with the following commands:
+
+ $ cd miniburber
+ $ npm run serve
+
+ WARN  Skipped git commit due to missing username and email in git config, or failed to sign commit.
+       You will need to perform the initial commit yourself.
+-x-
+npm install json-server #api local
+
+No arquivo package.json em scripts parametro "backend":"json-server --watch db/db.json"
+-x-
+npm run backend
