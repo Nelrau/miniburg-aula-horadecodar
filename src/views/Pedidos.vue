@@ -1,10 +1,16 @@
 <template>
     <div class="main-container">
-<h1>Pedidos</h1>
+        <h1>Pedidos</h1>
+        <BurgerForm/>
     </div>
 </template>
 <script>
-export default{
-    name:'Pedidos'
+import Burgerform from '../components/BurgerForm.vue';
+
+export default {
+    name: 'Pedidos',
+    components: {
+        Burgerform
+    }
 }
 </script>

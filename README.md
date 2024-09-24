@@ -17,15 +17,3 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-# Nelrau-miniburg-aula-horadecodar
-# Nelrau-miniburg-aula-horadecodar
-# Nelrau-miniburg-aula-horadecodar
-# Nelrau-miniburg-aula-horadecodar
-# Nelrau-miniburg-aula-horadecodar
-# miniburg-aula-horadecodar
-# miniburg-aula-horadecodar
-# miniburg-aula-horadecodar
-# miniburg-aula-horadecodar
-# miniburg-aula-horadecodar
-# miniburg-aula-horadecodar
-# miniburg-aula-horadecodar

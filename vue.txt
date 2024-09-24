@@ -1,0 +1,13 @@
+vue create .
+directory actual yes
+babel, router,
+3x
+history mode yes,
+in dedicated
+project saved no,
+
+npm run serve
+
+__backend fake__
+npm install json-server
+@joycesantos4124
