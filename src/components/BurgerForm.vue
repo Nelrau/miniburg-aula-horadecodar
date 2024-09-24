@@ -1,7 +1,7 @@
 <template>
     <p>componente de mensagem</p>
     <div>
-        <form id="burger-form">
+        <form id="burger-form" @submit="createBurger">
             <div class="input-container">
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome" v-model="nome" placeholder="Digite seu nome">
@@ -59,6 +59,17 @@ export default {
             this.opcionaisdata = data.opcionais
 
         },
+        async createBurger(){
+            const data = {
+                nome: this.nome,
+                carne: this.carne,
+                pao: this.pao,
+                opcionais: Array.from(this.opcionais),
+                status: "Solicitando"
+            }
+            const dataJson = JSON.stringify(data)
+            console.log(dataJson)
+        }
     },
     mounted(){
         this.getIngredient()
