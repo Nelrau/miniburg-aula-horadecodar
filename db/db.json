@@ -65,113 +65,39 @@
   },
   "status": [
     {
-      "id": 1,
+      "id": "1",
       "tipo": "Solicitado"
     },
     {
-      "id": 2,
+      "id": "2",
       "tipo": "Em produção"
     },
     {
-      "id": 3,
+      "id": "3",
       "tipo": "Finalizado"
     }
   ],
   "burgers": [
     {
-      "id": "4842",
-      "nome": "Carlos",
-      "carne": "",
+      "id": 1,
+      "nome": "Pedro",
+      "carne": "Alcatra",
       "pao": "3 Queijos",
       "opcionais": [
-        "Salame",
-        "Tomate"
-      ],
-      "status": "Solicitando"
-    },
-    {
-      "id": "2a79",
-      "nome": "Diego",
-      "carne": "Alcatra",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [
         "Bacon",
         "Cebola roxa"
       ],
       "status": "Solicitando"
     },
     {
-      "id": "335a",
-      "nome": "Diego",
-      "carne": "Alcatra",
+      "id": 2,
+      "nome": "Simone",
+      "carne": "Picanha",
       "pao": "Parmesão e Orégano",
       "opcionais": [
         "Bacon",
-        "Cebola roxa"
+        "Pepino"
       ],
-      "status": "Solicitando"
-    },
-    {
-      "id": "9e10",
-      "nome": "Diego",
-      "carne": "Alcatra",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [
-        "Bacon",
-        "Cebola roxa"
-      ],
-      "status": "Solicitando"
-    },
-    {
-      "id": "506c",
-      "nome": "Diego",
-      "carne": "Alcatra",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [
-        "Bacon",
-        "Cebola roxa"
-      ],
-      "status": "Solicitando"
-    },
-    {
-      "id": "1284",
-      "nome": "Diego",
-      "carne": "Alcatra",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [
-        "Bacon",
-        "Cebola roxa"
-      ],
-      "status": "Solicitando"
-    },
-    {
-      "id": "4243",
-      "nome": "Diego",
-      "carne": "Alcatra",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [
-        "Bacon",
-        "Cebola roxa"
-      ],
-      "status": "Solicitando"
-    },
-    {
-      "id": "c27d",
-      "nome": "pedro",
-      "carne": "Maminha",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Bacon",
-        "Tomate"
-      ],
-      "status": "Solicitando"
-    },
-    {
-      "id": "021b",
-      "nome": "car",
-      "carne": null,
-      "pao": null,
-      "opcionais": [],
       "status": "Solicitando"
     }
   ]

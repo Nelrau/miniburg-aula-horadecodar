@@ -1,16 +1,17 @@
 <template>
+    <h1>Gerenciar Pedidos:</h1>
     <div class="main-container">
-        <h1>Pedidos</h1>
-        <BurgerForm/>
+        <Dashboard/>
+
     </div>
 </template>
 <script>
-import Burgerform from '../components/BurgerForm.vue';
+import Dashboard from '../components/Dashboard.vue';
 
 export default {
     name: 'Pedidos',
     components: {
-        Burgerform
+        Dashboard
     }
 }
 </script>

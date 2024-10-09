@@ -1,3 +1,4 @@
+
 <template>
     <Message :msg="msg" v-show="msg" />
     <div>
@@ -35,7 +36,7 @@
 </template>
 <script>
 import Message from './Message.vue';
-
+let lastId = 0;
 export default {
     name: 'Burgerform',
     components: {
@@ -65,7 +66,13 @@ export default {
         },
         async createBurger(e) {
             e.preventDefault();
+            if (lastId === 0){
+                lastId = 1;
+            }else{
+                lastId ++;
+            }
             const data = {
+                id: lastId, 
                 nome: this.nome,
                 carne: this.carne,
                 pao: this.pao,
@@ -75,18 +82,26 @@ export default {
             const dataJson = JSON.stringify(data);
             const req = await fetch("http://localhost:3000/burgers", {
                 method: "Post",
-                headers: { "content-type": "application/json" },
+                headers: { "content-type": "application/json",
+                    "Cache-Control": "no-cache"
+                 },
                 body: dataJson
             });
             const res = await req.json();
 
             //colocar mensagem
+            res.id = lastId
+            this.id = lastId
+
+            
             this.msg = `Seu pedido nº ${res.id} foi cadastrado`
+            // limpar mensagem
+            setTimeout(() => this.msg = "", 3000)
             // limpar dados
             this.nome = "";
             this.pao = "";
             this.carne = "";
-            this.opcionais = "";
+            this.opcionais = [];
         }
 
     },
