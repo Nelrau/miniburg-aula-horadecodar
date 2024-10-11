@@ -79,24 +79,13 @@
   ],
   "burgers": [
     {
-      "id": 1,
-      "nome": "Pedro",
-      "carne": "Alcatra",
+      "id": 2,
+      "nome": "Diego",
+      "carne": null,
       "pao": "3 Queijos",
       "opcionais": [
         "Bacon",
         "Cebola roxa"
-      ],
-      "status": "Solicitando"
-    },
-    {
-      "id": 2,
-      "nome": "Simone",
-      "carne": "Picanha",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [
-        "Bacon",
-        "Pepino"
       ],
       "status": "Solicitando"
     }
